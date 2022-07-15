@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = gtest
+build_property.ProjectDir = D:\.NET projects\gtest\gittest\gtest\

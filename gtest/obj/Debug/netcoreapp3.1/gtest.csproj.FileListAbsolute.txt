@@ -1,0 +1,14 @@
+D:\.NET projects\gtest\gittest\gtest\bin\Debug\netcoreapp3.1\gtest.exe
+D:\.NET projects\gtest\gittest\gtest\bin\Debug\netcoreapp3.1\gtest.deps.json
+D:\.NET projects\gtest\gittest\gtest\bin\Debug\netcoreapp3.1\gtest.runtimeconfig.json
+D:\.NET projects\gtest\gittest\gtest\bin\Debug\netcoreapp3.1\gtest.runtimeconfig.dev.json
+D:\.NET projects\gtest\gittest\gtest\bin\Debug\netcoreapp3.1\gtest.dll
+D:\.NET projects\gtest\gittest\gtest\bin\Debug\netcoreapp3.1\gtest.pdb
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.csproj.AssemblyReference.cache
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.AssemblyInfoInputs.cache
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.AssemblyInfo.cs
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.csproj.CoreCompileInputs.cache
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.dll
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.pdb
+D:\.NET projects\gtest\gittest\gtest\obj\Debug\netcoreapp3.1\gtest.genruntimeconfig.cache
