@@ -11,6 +11,7 @@ namespace testGit
             int age = 0;
             int height = 0;
             int weight = 0;
+            string profession = string.Empty;
             int responce = 0;
             while (responce != -1)
             {
@@ -19,6 +20,7 @@ namespace testGit
                                     "Enter 2 to enter your age" + Environment.NewLine +
                                     "Enter 3 to enter your height" + Environment.NewLine +
                                     "Enter 4 to enter your weight" + Environment.NewLine +
+                                    "Enter 5 to enter your profession" + Environment.NewLine +
                                     "Enter -2 to print resume" + Environment.NewLine +
                                     "Enter -1 to EXIT");
                 responce = int.Parse(Console.ReadLine());
@@ -56,16 +58,20 @@ namespace testGit
                             weight = int.Parse(Console.ReadLine());
                             break;
                         }
+                    case 5:
+                        {
+                            Console.WriteLine("Enter your profession");
+                            profession = Console.ReadLine();
+                            break;
+                        }
                     case -2:
                         {
                             Console.WriteLine(name);
                             Console.WriteLine(surname);
                             Console.WriteLine(age);
-
                             Console.WriteLine(height);
-
                             Console.WriteLine(weight);
-
+                            Console.WriteLine(profession);
                             break;
                         }
                     case -1:
