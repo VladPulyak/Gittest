@@ -9,12 +9,14 @@ namespace testGit
             string name = string.Empty;
             string surname = string.Empty;
             int age = 0;
+            int weight = 0;
             int responce = 0;
             while (responce != -1)
             {
                 Console.WriteLine("Enter 0 to enter your name" + Environment.NewLine +
                                     "Enter 1 to enter your surname" + Environment.NewLine +
                                     "Enter 2 to enter your age" + Environment.NewLine +
+                                    "Enter 4 to enter your weight" + Environment.NewLine +
                                     "Enter -2 to print resume" + Environment.NewLine +
                                     "Enter -1 to EXIT");
                 responce = int.Parse(Console.ReadLine());
@@ -38,11 +40,18 @@ namespace testGit
                             age = int.Parse(Console.ReadLine());
                             break;
                         }
+                    case 4:
+                        {
+                            Console.WriteLine("Enter your weight");
+                            weight = int.Parse(Console.ReadLine());
+                            break;
+                        }
                     case -2:
                         {
                             Console.WriteLine(name);
                             Console.WriteLine(surname);
                             Console.WriteLine(age);
+                            Console.WriteLine(weight);
                             break;
                         }
                     case -1:
